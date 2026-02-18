@@ -36,11 +36,18 @@ Multi-agent systems blow through context windows fast.
 
 Even with just 5 agents working in parallel, each maintaining their own plan files, logs, and understanding of the codebase, the token count explodes. Now imagine 15.
 
-[Anthropic's research on their C compiler project](https://www.anthropic.com/engineering/building-c-compiler) makes this concrete: **16 parallel agents consumed 2 billion input tokens** across 2,000 Claude Code sessions (~2 weeks straight). That's $20,000 in API costs for a single project.
+<a href="https://www.anthropic.com/engineering/building-c-compiler" target="_blank">Anthropic's research on their C compiler project</a> makes this concrete: **16 parallel agents consumed 2 billion input tokens** across 2,000 Claude Code sessions (~2 weeks straight). That's $20,000 in API costs for a single project.
 
 And this wasn't some grandiose enterprise system. It was one compiler.
 
-Most modern LLMs have a ~200k token context window limit before performance degrades significantly. Some have 1M context window, which sounds like a lot, but larger context windows don't solve the problem. Models with tighter windows tend to be more accurate and effective at complex agentic tasks precisely because context rot is real. When agents have to sift through hundreds of thousands of tokens before each action, they get lazy. Just like any human would.
+Most modern LLMs have a ~200k token context window limit before performance degrades significantly. Some have 1M context window, which sounds like a lot, but larger context windows don't solve the problem. 
+
+<figure>
+  <img src="/images/long-context-retrieval.jpg" alt="Claude models long-context retrieval benchmark">
+  <figcaption><a href="https://www.anthropic.com/news/claude-opus-4-6" target="_blank">Claude Opus 4.6 256k is better at long-context retrieval than 4.6 with 1M context window</a></figcaption>
+</figure>
+
+Models with tighter windows are more accurate and effective at complex agentic tasks precisely because context rot is real. When agents have to sift through hundreds of thousands of tokens before each action, they get lazy. Just like any human would.
 
 For production systems, the economics compound fast. A company running 20+ agents across different workflows could easily be looking at $100k+ in monthly token costs if memory isn't optimized.
 
@@ -143,11 +150,11 @@ In theory, they stay synchronized. But in practice, this falls apart at scale.
 
 ## Where it breaks
 
-[MongoDB's research on multi-agent memory](https://www.mongodb.com/company/blog/technical/why-multi-agent-systems-need-memory-engineering) found that **LLM performance systematically degrades when context exceeds certain thresholds.**
+<a href="https://www.mongodb.com/company/blog/technical/why-multi-agent-systems-need-memory-engineering" target="_blank">MongoDB's research on multi-agent memory</a> found that **LLM performance systematically degrades when context exceeds certain thresholds.**
 
 The models condense information. They optimize. But they don't know what's actually important to keep.
 
-Anthropic saw this firsthand. When building their multi-agent research system, early versions had agents ["spawning 50 subagents for simple queries, scouring the web endlessly for nonexistent sources, and distracting each other with excessive updates."](https://www.anthropic.com/engineering/multi-agent-research-system)
+Anthropic saw this firsthand. When building their multi-agent research system, early versions had agents <a href="https://www.anthropic.com/engineering/multi-agent-research-system" target="_blank">"spawning 50 subagents for simple queries, scouring the web endlessly for nonexistent sources, and distracting each other with excessive updates."</a>
 
 This wasn't a model problem. It was a memory architecture problem.
 
@@ -155,7 +162,7 @@ When you're coordinating 15+ agents across different phases, each reading & writ
 
 ## What some are trying
 
-[OpenClaw built something interesting: a markdown "source of truth"](https://docs.openclaw.ai/concepts/memory) system that attempts to mimic human cognitive recall.
+<a href="https://docs.openclaw.ai/concepts/memory" target="_blank">OpenClaw built something interesting: a markdown "source of truth"</a> system that attempts to mimic human cognitive recall.
 
 It works like this:
 1. **Daily logs** - timestamped record of what happened
@@ -167,7 +174,7 @@ It makes sense logically. As humans, we don't remember what we ate for dinner th
 
 But relying on purely markdown file system for memory seems juvenile for large codebases and tasks.
 
-[Github recently released their solution to this problem.](https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/) They developed a novel approach that stores memories with citations (i.e. references to specific code locations that support each fact) rather than a strictly plain text markdown system. 
+<a href="https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/" target="_blank">Github recently released their solution to this problem.</a> They developed a novel approach that stores memories with citations (i.e. references to specific code locations that support each fact) rather than a strictly plain text markdown system. 
 
 <figure>
   <img src="/images/github-memory generation solution.jpeg" alt="Github memory solution">
@@ -186,7 +193,7 @@ Everyone's trying something. But the enterprise-grade solution gap still exists.
 
 Here's the brutal reality: 
 
-When Anthropic shipped their multi-agent research system, they found that ["agents typically use about 4× more tokens than chat interactions, and multi-agent systems use about 15× more tokens than chats."](https://www.anthropic.com/engineering/multi-agent-research-system)
+When Anthropic shipped their multi-agent research system, they found that <a href="https://www.anthropic.com/engineering/multi-agent-research-system" target="_blank">"agents typically use about 4× more tokens than chat interactions, and multi-agent systems use about 15× more tokens than chats."</a>
 
 But they also reportedly discovered that when memory and coordination work together, multi-agent systems outperformed single-agent systems by 90%. And that was with Claude Opus 4...
 

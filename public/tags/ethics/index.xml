@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ethics on Gradient.</title>
-    <link>http://localhost:54679/tags/ethics/</link>
+    <link>http://localhost:58333/tags/ethics/</link>
     <description>Recent content in Ethics on Gradient.</description>
     <image>
       <title>Gradient.</title>
-      <url>http://localhost:54679/images/gradient-og.png</url>
-      <link>http://localhost:54679/images/gradient-og.png</link>
+      <url>http://localhost:58333/images/gradient-og.png</url>
+      <link>http://localhost:58333/images/gradient-og.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Apr 2025 08:30:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:54679/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58333/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI is Decoupling From Ethics: Why should you care?</title>
-      <link>http://localhost:54679/posts/ai-decoupling-from-ethics/</link>
+      <title>AI is Decoupling From Ethics: Why Should You Care?</title>
+      <link>http://localhost:58333/posts/ai-decoupling-from-ethics/</link>
       <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
-      <guid>http://localhost:54679/posts/ai-decoupling-from-ethics/</guid>
+      <guid>http://localhost:58333/posts/ai-decoupling-from-ethics/</guid>
       <description>&lt;h2 id=&#34;whats-currently-top-of-mind-for-me&#34;&gt;What&amp;rsquo;s currently top of mind for me:&lt;/h2&gt;
 &lt;p&gt;AI is advancing insanely fast. Faster than any of us ever expected.&lt;/p&gt;
 &lt;p&gt;The CEO of Anthropic predicted that &lt;a href=&#34;https://www.businessinsider.com/anthropic-ceo-ai-90-percent-code-3-to-6-months-2025-3&#34;&gt;by the end of 2025 over 90% of all software will be written by AI.&lt;/a&gt;&lt;/p&gt;

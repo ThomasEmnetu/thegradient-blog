@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gradient.</title>
-    <link>http://localhost:54679/</link>
+    <link>http://localhost:58333/</link>
     <description>Recent content on Gradient.</description>
     <image>
       <title>Gradient.</title>
-      <url>http://localhost:54679/images/gradient-og.png</url>
-      <link>http://localhost:54679/images/gradient-og.png</link>
+      <url>http://localhost:58333/images/gradient-og.png</url>
+      <link>http://localhost:58333/images/gradient-og.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Feb 2026 00:01:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:54679/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58333/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Multi-Agent Systems &amp; Their Tendency to Develop Alzheimers</title>
-      <link>http://localhost:54679/posts/the-memory-problem/</link>
+      <title>Multi-Agent Systems &amp; Their Tendency to Develop Alzheimer&#39;s</title>
+      <link>http://localhost:58333/posts/the-memory-problem/</link>
       <pubDate>Wed, 18 Feb 2026 00:01:00 -0700</pubDate>
-      <guid>http://localhost:54679/posts/the-memory-problem/</guid>
+      <guid>http://localhost:58333/posts/the-memory-problem/</guid>
       <description>&lt;p&gt;TLDR:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Everyone is excited about multi-agent swarms. Few are talking about the actual bottleneck. This post is about that bottleneck: memory.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;We now have cheap inference, capable models, and production-ready orchestration frameworks. But when you scale to 10+ agents working in parallel across days of iteration, the coordination breaks down, not because the models are dumb, but because nobody has solved how agents store, share, and retrieve context at scale.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I’ve Been Drinking the AI Kool-Aid…and I Love It</title>
-      <link>http://localhost:54679/posts/embracing-ai-agents/</link>
+      <link>http://localhost:58333/posts/embracing-ai-agents/</link>
       <pubDate>Sat, 07 Feb 2026 01:00:00 -0700</pubDate>
-      <guid>http://localhost:54679/posts/embracing-ai-agents/</guid>
+      <guid>http://localhost:58333/posts/embracing-ai-agents/</guid>
       <description>&lt;h2 id=&#34;i-was-overly-pessimistic-about-ai-for-a-while&#34;&gt;I was overly pessimistic about AI for a while.&lt;/h2&gt;
 &lt;p&gt;I harped on the harms, ethical shortcomings, the ways this tech could be misused or cause real damage.&lt;/p&gt;
 &lt;p&gt;I still hold those concerns.&lt;/p&gt;
@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>Why Most College Students Won’t Make it in Big Tech</title>
-      <link>http://localhost:54679/posts/college-big-tech-reality/</link>
+      <link>http://localhost:58333/posts/college-big-tech-reality/</link>
       <pubDate>Tue, 20 May 2025 00:01:00 -0700</pubDate>
-      <guid>http://localhost:54679/posts/college-big-tech-reality/</guid>
+      <guid>http://localhost:58333/posts/college-big-tech-reality/</guid>
       <description>&lt;h2 id=&#34;most-ppl-in-college-dont-deserve-big-tech-roles&#34;&gt;Most ppl in college don’t deserve big tech roles.&lt;/h2&gt;
 &lt;p&gt;That includes me. At least, the version of me I used to be.&lt;/p&gt;
 &lt;p&gt;Allow me to elaborate.&lt;/p&gt;
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>AI is Decoupling From Ethics: Why Should You Care?</title>
-      <link>http://localhost:54679/posts/ai-decoupling-from-ethics/</link>
+      <link>http://localhost:58333/posts/ai-decoupling-from-ethics/</link>
       <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
-      <guid>http://localhost:54679/posts/ai-decoupling-from-ethics/</guid>
+      <guid>http://localhost:58333/posts/ai-decoupling-from-ethics/</guid>
       <description>&lt;h2 id=&#34;whats-currently-top-of-mind-for-me&#34;&gt;What&amp;rsquo;s currently top of mind for me:&lt;/h2&gt;
 &lt;p&gt;AI is advancing insanely fast. Faster than any of us ever expected.&lt;/p&gt;
 &lt;p&gt;The CEO of Anthropic predicted that &lt;a href=&#34;https://www.businessinsider.com/anthropic-ceo-ai-90-percent-code-3-to-6-months-2025-3&#34;&gt;by the end of 2025 over 90% of all software will be written by AI.&lt;/a&gt;&lt;/p&gt;

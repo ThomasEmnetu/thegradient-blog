@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Gradient.</title>
-    <link>http://localhost:54679/tags/</link>
+    <link>http://localhost:58333/tags/</link>
     <description>Recent content in Tags on Gradient.</description>
     <image>
       <title>Gradient.</title>
-      <url>http://localhost:54679/images/gradient-og.png</url>
-      <link>http://localhost:54679/images/gradient-og.png</link>
+      <url>http://localhost:58333/images/gradient-og.png</url>
+      <link>http://localhost:58333/images/gradient-og.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 01:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:54679/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Feb 2026 00:01:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:58333/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://localhost:54679/tags/ai/</link>
-      <pubDate>Tue, 17 Feb 2026 01:00:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/ai/</guid>
+      <link>http://localhost:58333/tags/ai/</link>
+      <pubDate>Wed, 18 Feb 2026 00:01:00 -0700</pubDate>
+      <guid>http://localhost:58333/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Engineering</title>
-      <link>http://localhost:54679/tags/engineering/</link>
-      <pubDate>Tue, 17 Feb 2026 01:00:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/engineering/</guid>
+      <link>http://localhost:58333/tags/engineering/</link>
+      <pubDate>Wed, 18 Feb 2026 00:01:00 -0700</pubDate>
+      <guid>http://localhost:58333/tags/engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Opinion</title>
-      <link>http://localhost:54679/tags/opinion/</link>
-      <pubDate>Tue, 17 Feb 2026 01:00:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/opinion/</guid>
+      <link>http://localhost:58333/tags/opinion/</link>
+      <pubDate>Wed, 18 Feb 2026 00:01:00 -0700</pubDate>
+      <guid>http://localhost:58333/tags/opinion/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:54679/tags/research/</link>
-      <pubDate>Tue, 17 Feb 2026 01:00:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/research/</guid>
+      <link>http://localhost:58333/tags/research/</link>
+      <pubDate>Wed, 18 Feb 2026 00:01:00 -0700</pubDate>
+      <guid>http://localhost:58333/tags/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>http://localhost:54679/tags/productivity/</link>
+      <link>http://localhost:58333/tags/productivity/</link>
       <pubDate>Sat, 07 Feb 2026 01:00:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/productivity/</guid>
+      <guid>http://localhost:58333/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>College</title>
-      <link>http://localhost:54679/tags/college/</link>
+      <link>http://localhost:58333/tags/college/</link>
       <pubDate>Tue, 20 May 2025 00:01:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/college/</guid>
+      <guid>http://localhost:58333/tags/college/</guid>
       <description></description>
     </item>
     <item>
       <title>Internship</title>
-      <link>http://localhost:54679/tags/internship/</link>
+      <link>http://localhost:58333/tags/internship/</link>
       <pubDate>Tue, 20 May 2025 00:01:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/internship/</guid>
+      <guid>http://localhost:58333/tags/internship/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>http://localhost:54679/tags/tech/</link>
+      <link>http://localhost:58333/tags/tech/</link>
       <pubDate>Tue, 20 May 2025 00:01:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/tech/</guid>
+      <guid>http://localhost:58333/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>http://localhost:54679/tags/data/</link>
+      <link>http://localhost:58333/tags/data/</link>
       <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/data/</guid>
+      <guid>http://localhost:58333/tags/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Ethics</title>
-      <link>http://localhost:54679/tags/ethics/</link>
+      <link>http://localhost:58333/tags/ethics/</link>
       <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
-      <guid>http://localhost:54679/tags/ethics/</guid>
+      <guid>http://localhost:58333/tags/ethics/</guid>
       <description></description>
     </item>
   </channel>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Multi-Agent Systems &amp; Their Tendency to Develop Alzheimers | Gradient.</title>
+<title>Multi-Agent Systems &amp; Their Tendency to Develop Alzheimer&#39;s | Gradient.</title>
 <meta name="keywords" content="AI, Research, Engineering, Opinion">
 <meta name="description" content="TLDR:
 Everyone is excited about multi-agent swarms. Few are talking about the actual bottleneck. This post is about that bottleneck: memory.
@@ -115,7 +115,7 @@ We now have cheap inference, capable models, and production-ready orchestration 
   <header class="post-header">
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      Multi-Agent Systems &amp; Their Tendency to Develop Alzheimers
+      Multi-Agent Systems &amp; Their Tendency to Develop Alzheimer&#39;s
     </h1>
     <div class="post-meta"><span title='2026-02-18 00:01:00 -0700 -0700'>February 18, 2026</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Thomas Emnetu
 
@@ -191,15 +191,20 @@ We now have cheap inference, capable models, and production-ready orchestration 
       </tr>
   </tbody>
 </table>
-<p>That&rsquo;s an <strong>80%+ drop in cost</strong> for frontier intelligence in under 2 years.</p>
+<p>The above table showcases an <strong>80%+ drop in cost</strong> for frontier intelligence in &lt; 2 years.</p>
 <p>This is why multi-agent systems went from research concept to production reality. When reasoning is this cheap, you can afford to run multiple agents in parallel without burning through budgets.</p>
 <p>But cheap tokens created a new problem.</p>
 <h2 id="the-hidden-cost-of-context-windows">The hidden cost of context windows<a hidden class="anchor" aria-hidden="true" href="#the-hidden-cost-of-context-windows">#</a></h2>
 <p>Multi-agent systems blow through context windows fast.</p>
 <p>Even with just 5 agents working in parallel, each maintaining their own plan files, logs, and understanding of the codebase, the token count explodes. Now imagine 15.</p>
-<p><a href="https://www.anthropic.com/engineering/building-c-compiler">Anthropic&rsquo;s research on their C compiler project</a> makes this concrete: <strong>16 parallel agents consumed 2 billion input tokens</strong> across 2,000 Claude Code sessions (~2 weeks straight). That&rsquo;s $20,000 in API costs for a single project.</p>
+<p><a href="https://www.anthropic.com/engineering/building-c-compiler" target="_blank">Anthropic&rsquo;s research on their C compiler project</a> makes this concrete: <strong>16 parallel agents consumed 2 billion input tokens</strong> across 2,000 Claude Code sessions (~2 weeks straight). That&rsquo;s $20,000 in API costs for a single project.</p>
 <p>And this wasn&rsquo;t some grandiose enterprise system. It was one compiler.</p>
-<p>Most modern LLMs have a ~200k token context window limit before performance degrades significantly. Some have 1M context window, which sounds like a lot, but larger context windows don&rsquo;t solve the problem. Models with tighter windows tend to be more accurate and effective at complex agentic tasks precisely because context rot is real. When agents have to sift through hundreds of thousands of tokens before each action, they get lazy. Just like any human would.</p>
+<p>Most modern LLMs have a ~200k token context window limit before performance degrades significantly. Some have 1M context window, which sounds like a lot, but larger context windows don&rsquo;t solve the problem.</p>
+<figure>
+  <img src="/images/long-context-retrieval.jpg" alt="Claude models long-context retrieval benchmark">
+  <figcaption><a href="https://www.anthropic.com/news/claude-opus-4-6" target="_blank">Claude Opus 4.6 256k is better at long-context retrieval than 4.6 with 1M context window</a></figcaption>
+</figure>
+<p>Models with tighter windows are more accurate and effective at complex agentic tasks precisely because context rot is real. When agents have to sift through hundreds of thousands of tokens before each action, they get lazy. Just like any human would.</p>
 <p>For production systems, the economics compound fast. A company running 20+ agents across different workflows could easily be looking at $100k+ in monthly token costs if memory isn&rsquo;t optimized.</p>
 <p>Cheap inference made multi-agent systems possible. Bloated context is quietly making them expensive again.</p>
 <h2 id="how-multi-agent-systems-actually-work">How multi-agent systems actually work<a hidden class="anchor" aria-hidden="true" href="#how-multi-agent-systems-actually-work">#</a></h2>
@@ -305,13 +310,13 @@ We now have cheap inference, capable models, and production-ready orchestration 
 <p>Every agent reads the overview file. Updates it. Other agents see those updates.</p>
 <p>In theory, they stay synchronized. But in practice, this falls apart at scale.</p>
 <h2 id="where-it-breaks">Where it breaks<a hidden class="anchor" aria-hidden="true" href="#where-it-breaks">#</a></h2>
-<p><a href="https://www.mongodb.com/company/blog/technical/why-multi-agent-systems-need-memory-engineering">MongoDB&rsquo;s research on multi-agent memory</a> found that <strong>LLM performance systematically degrades when context exceeds certain thresholds.</strong></p>
+<p><a href="https://www.mongodb.com/company/blog/technical/why-multi-agent-systems-need-memory-engineering" target="_blank">MongoDB&rsquo;s research on multi-agent memory</a> found that <strong>LLM performance systematically degrades when context exceeds certain thresholds.</strong></p>
 <p>The models condense information. They optimize. But they don&rsquo;t know what&rsquo;s actually important to keep.</p>
-<p>Anthropic saw this firsthand. When building their multi-agent research system, early versions had agents <a href="https://www.anthropic.com/engineering/multi-agent-research-system">&ldquo;spawning 50 subagents for simple queries, scouring the web endlessly for nonexistent sources, and distracting each other with excessive updates.&rdquo;</a></p>
+<p>Anthropic saw this firsthand. When building their multi-agent research system, early versions had agents <a href="https://www.anthropic.com/engineering/multi-agent-research-system" target="_blank">&ldquo;spawning 50 subagents for simple queries, scouring the web endlessly for nonexistent sources, and distracting each other with excessive updates.&quot;</a></p>
 <p>This wasn&rsquo;t a model problem. It was a memory architecture problem.</p>
 <p>When you&rsquo;re coordinating 15+ agents across different phases, each reading &amp; writing .md plan files, logs, and context, the degradation compounds exponentially. The models lose track. They repeat work. They conflict with each other.</p>
 <h2 id="what-some-are-trying">What some are trying<a hidden class="anchor" aria-hidden="true" href="#what-some-are-trying">#</a></h2>
-<p><a href="https://docs.openclaw.ai/concepts/memory">OpenClaw built something interesting: a markdown &ldquo;source of truth&rdquo;</a> system that attempts to mimic human cognitive recall.</p>
+<p><a href="https://docs.openclaw.ai/concepts/memory" target="_blank">OpenClaw built something interesting: a markdown &ldquo;source of truth&rdquo;</a> system that attempts to mimic human cognitive recall.</p>
 <p>It works like this:</p>
 <ol>
 <li><strong>Daily logs</strong> - timestamped record of what happened</li>
@@ -321,7 +326,7 @@ We now have cheap inference, capable models, and production-ready orchestration 
 </ol>
 <p>It makes sense logically. As humans, we don&rsquo;t remember what we ate for dinner the other day, let alone every detail from a year ago. But you do remember the important entities. The patterns. The outcomes.</p>
 <p>But relying on purely markdown file system for memory seems juvenile for large codebases and tasks.</p>
-<p><a href="https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/">Github recently released their solution to this problem.</a> They developed a novel approach that stores memories with citations (i.e. references to specific code locations that support each fact) rather than a strictly plain text markdown system.</p>
+<p><a href="https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/" target="_blank">Github recently released their solution to this problem.</a> They developed a novel approach that stores memories with citations (i.e. references to specific code locations that support each fact) rather than a strictly plain text markdown system.</p>
 <figure>
   <img src="/images/github-memory generation solution.jpeg" alt="Github memory solution">
   <figcaption>How Github Copilot agents store learnings worth remembering as they carry out their tasks</figcaption>
@@ -335,7 +340,7 @@ We now have cheap inference, capable models, and production-ready orchestration 
 <p>Everyone&rsquo;s trying something. But the enterprise-grade solution gap still exists.</p>
 <h2 id="the-token-economics-of-memory">The token economics of memory<a hidden class="anchor" aria-hidden="true" href="#the-token-economics-of-memory">#</a></h2>
 <p>Here&rsquo;s the brutal reality:</p>
-<p>When Anthropic shipped their multi-agent research system, they found that <a href="https://www.anthropic.com/engineering/multi-agent-research-system">&ldquo;agents typically use about 4× more tokens than chat interactions, and multi-agent systems use about 15× more tokens than chats.&rdquo;</a></p>
+<p>When Anthropic shipped their multi-agent research system, they found that <a href="https://www.anthropic.com/engineering/multi-agent-research-system" target="_blank">&ldquo;agents typically use about 4× more tokens than chat interactions, and multi-agent systems use about 15× more tokens than chats.&quot;</a></p>
 <p>But they also reportedly discovered that when memory and coordination work together, multi-agent systems outperformed single-agent systems by 90%. And that was with Claude Opus 4&hellip;</p>
 <p>This truly signals a categorical shift in capability, and this trend is likely to continue due to scaling laws.</p>
 <p>The problem is no longer that multi-agent systems don&rsquo;t work effectively, but that we don&rsquo;t have the memory infrastructure to support them efficiently.</p>
@@ -366,8 +371,7 @@ We now have cheap inference, capable models, and production-ready orchestration 
 <p>Training a lightweight, specialized memory management model that handles the constant layer of:</p>
 <blockquote>
 <p>&ldquo;what&rsquo;s happening, what do I need to know&rdquo;</p></blockquote>
-<p>Then this lightweight model could then feed clean, compressed context to the main agent model that can dedicate it&rsquo;s full context window to actual execution.</p>
-<p>Rather than each agent spending 60-80% of it&rsquo;s context just reorientating &ldquo;where are we, what&rsquo;s my role, what are the dependencies&rdquo; before they even start thinking about the task.</p>
+<p>This memory model could then communicate with other sub-agent memory models. It would feed clean, compressed context to the parent agent that can dedicate it&rsquo;s full context window to actual execution. Rather than agents spending 60-80% of their context just reorientating &ldquo;where are we, what&rsquo;s my role, what are the dependencies&rdquo; before they even start thinking about a task. Each agent would simply get it&rsquo;s own efficient memory model to handle this cognition.</p>
 <h3 id="acknowledgements">Acknowledgements<a hidden class="anchor" aria-hidden="true" href="#acknowledgements">#</a></h3>
 <p>Special thanks to Ahmed Ghaddah for sharing your insights which inspired this post.</p>
 
