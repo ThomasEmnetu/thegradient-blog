@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:58333/categories/ai/</loc>
+    <loc>http://localhost:58669/categories/ai/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/ai/</loc>
+    <loc>http://localhost:58669/tags/ai/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/categories/</loc>
+    <loc>http://localhost:58669/categories/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/engineering/</loc>
+    <loc>http://localhost:58669/tags/engineering/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/</loc>
+    <loc>http://localhost:58669/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/posts/the-memory-problem/</loc>
+    <loc>http://localhost:58669/posts/the-memory-problem/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/opinion/</loc>
+    <loc>http://localhost:58669/tags/opinion/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/posts/</loc>
+    <loc>http://localhost:58669/posts/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/research/</loc>
+    <loc>http://localhost:58669/tags/research/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/</loc>
+    <loc>http://localhost:58669/tags/</loc>
     <lastmod>2026-02-18T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/posts/embracing-ai-agents/</loc>
+    <loc>http://localhost:58669/posts/embracing-ai-agents/</loc>
     <lastmod>2026-02-07T01:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/productivity/</loc>
+    <loc>http://localhost:58669/tags/productivity/</loc>
     <lastmod>2026-02-07T01:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/college/</loc>
+    <loc>http://localhost:58669/tags/college/</loc>
     <lastmod>2025-05-20T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/internship/</loc>
+    <loc>http://localhost:58669/tags/internship/</loc>
     <lastmod>2025-05-20T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/categories/tech/</loc>
+    <loc>http://localhost:58669/categories/tech/</loc>
     <lastmod>2025-05-20T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/tech/</loc>
+    <loc>http://localhost:58669/tags/tech/</loc>
     <lastmod>2025-05-20T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/posts/college-big-tech-reality/</loc>
+    <loc>http://localhost:58669/posts/college-big-tech-reality/</loc>
     <lastmod>2025-05-20T00:01:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/posts/ai-decoupling-from-ethics/</loc>
+    <loc>http://localhost:58669/posts/ai-decoupling-from-ethics/</loc>
     <lastmod>2025-04-07T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/data/</loc>
+    <loc>http://localhost:58669/tags/data/</loc>
     <lastmod>2025-04-07T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:58333/tags/ethics/</loc>
+    <loc>http://localhost:58669/tags/ethics/</loc>
     <lastmod>2025-04-07T08:30:00-07:00</lastmod>
   </url>
 </urlset>

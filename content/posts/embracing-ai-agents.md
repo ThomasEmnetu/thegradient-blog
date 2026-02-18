@@ -79,7 +79,7 @@ Multi-agent systems aren't new conceptually. The idea of breaking work into spec
 
 What changed is that the models are now good enough (and inference is cheap enough) that orchestration actually works at a practical level.
 
-[Spotify is now using this in production to resolve errors and conflicts.](https://claude.com/customers/spotify) It's become a critical part of their workflow, freeing up developer time for bigger-picture efforts.
+<a href="https://claude.com/customers/spotify" target="_blank">Spotify is now using this in production to resolve errors and conflicts.</a> It's become a critical part of their workflow, freeing up developer time for bigger-picture efforts.
 
 The economics finally make sense.
 

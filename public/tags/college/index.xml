@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>College on Gradient.</title>
-    <link>http://localhost:58333/tags/college/</link>
+    <link>http://localhost:58669/tags/college/</link>
     <description>Recent content in College on Gradient.</description>
     <image>
       <title>Gradient.</title>
-      <url>http://localhost:58333/images/gradient-og.png</url>
-      <link>http://localhost:58333/images/gradient-og.png</link>
+      <url>http://localhost:58669/images/gradient-og.png</url>
+      <link>http://localhost:58669/images/gradient-og.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 May 2025 00:01:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:58333/tags/college/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58669/tags/college/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Most College Students Won’t Make it in Big Tech</title>
-      <link>http://localhost:58333/posts/college-big-tech-reality/</link>
+      <link>http://localhost:58669/posts/college-big-tech-reality/</link>
       <pubDate>Tue, 20 May 2025 00:01:00 -0700</pubDate>
-      <guid>http://localhost:58333/posts/college-big-tech-reality/</guid>
+      <guid>http://localhost:58669/posts/college-big-tech-reality/</guid>
       <description>&lt;h2 id=&#34;most-ppl-in-college-dont-deserve-big-tech-roles&#34;&gt;Most ppl in college don’t deserve big tech roles.&lt;/h2&gt;
 &lt;p&gt;That includes me. At least, the version of me I used to be.&lt;/p&gt;
 &lt;p&gt;Allow me to elaborate.&lt;/p&gt;

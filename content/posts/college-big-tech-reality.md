@@ -76,7 +76,7 @@ But it is.
 
 It's the unfortunate reality we’re living in, and the uncomfortable truth that no one speaks candidly about.
 
-[Even after “making it”, you can be laid off in a heartbeat.](https://www.cnbc.com/2025/05/13/microsoft-is-cutting-3percent-of-workers-across-the-software-company.html)
+<a href="https://www.cnbc.com/2025/05/13/microsoft-is-cutting-3percent-of-workers-across-the-software-company.html" target="_blank">Even after "making it", you can be laid off in a heartbeat.</a>
 
 “Reorg” is just corporate-speak for you’re replaceable.
 

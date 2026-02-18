@@ -12,7 +12,7 @@ TocOpen: false
 
 AI is advancing insanely fast. Faster than any of us ever expected.
 
-The CEO of Anthropic predicted that [by the end of 2025 over 90% of all software will be written by AI.](https://www.businessinsider.com/anthropic-ceo-ai-90-percent-code-3-to-6-months-2025-3)  
+The CEO of Anthropic predicted that <a href="https://www.businessinsider.com/anthropic-ceo-ai-90-percent-code-3-to-6-months-2025-3" target="_blank">by the end of 2025 over 90% of all software will be written by AI.</a>  
 
 Whether that number proves true or not, the trajectory is clear.
 
@@ -56,7 +56,7 @@ A future where these corporations feel entitled to do as they please with data t
 
 ## This is not just an opinion
 
-[OpenAI added over 1M paying users in a single hour](https://www.theverge.com/openai/639960/chatgpt-added-one-million-users-in-the-last-hour) after Studio Ghibli-style images generated with GPT-4o started trending everywhere. The biggest spike in paid users since the launch of their paid plan. Which [ultimately allowed them to raise $40B at a $300B valuation a week later.](https://www.cnbc.com/2025/03/31/openai-closes-40-billion-in-funding-the-largest-private-fundraise-in-history-softbank-chatgpt.html)
+<a href="https://www.theverge.com/openai/639960/chatgpt-added-one-million-users-in-the-last-hour" target="_blank">OpenAI added over 1M paying users in a single hour</a> after Studio Ghibli-style images generated with GPT-4o started trending everywhere. The biggest spike in paid users since the launch of their paid plan. Which <a href="https://www.cnbc.com/2025/03/31/openai-closes-40-billion-in-funding-the-largest-private-fundraise-in-history-softbank-chatgpt.html" target="_blank">ultimately allowed them to raise $40B at a $300B valuation a week later.</a>
 
 That should tell you everything. Most don't care how the model was trained. They care about cool outputs that grow KPIs they can brag about.
 
