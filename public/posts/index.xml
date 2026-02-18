@@ -2,22 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Gradient.</title>
-    <link>http://localhost:61655/posts/</link>
+    <link>http://localhost:54679/posts/</link>
     <description>Recent content in Posts on Gradient.</description>
     <image>
       <title>Gradient.</title>
-      <url>http://localhost:61655/images/gradient-og.png</url>
-      <link>http://localhost:61655/images/gradient-og.png</link>
+      <url>http://localhost:54679/images/gradient-og.png</url>
+      <link>http://localhost:54679/images/gradient-og.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Feb 2026 01:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:61655/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Feb 2026 01:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:54679/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-Agent systems and their tendency to develop alzheimers</title>
+      <link>http://localhost:54679/posts/the-memory-problem/</link>
+      <pubDate>Tue, 17 Feb 2026 01:00:00 -0700</pubDate>
+      <guid>http://localhost:54679/posts/the-memory-problem/</guid>
+      <description>&lt;h2 id=&#34;the-multi-agent-bottleneck-nobodys-solved&#34;&gt;The Multi-Agent Bottleneck Nobody&amp;rsquo;s Solved&lt;/h2&gt;
+&lt;h2 id=&#34;whats-currently-top-of-mind-for-me&#34;&gt;What&amp;rsquo;s currently top of mind for me:&lt;/h2&gt;
+&lt;p&gt;I had a conversation with Ahmed Ghaddah last week that fundamentally changed how I think about multi-agent systems.&lt;/p&gt;
+&lt;p&gt;He walked me through how these systems work in real production enterprise environments. Not just basic problem solving. But realistic value-adding workflows that automate tasks which would&amp;rsquo;ve taken a human days or weeks.&lt;/p&gt;
+&lt;p&gt;The coordination mechanisms. The failure modes. The places where things break at scale.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>I’ve been drinking the AI kool-aid…and I love it</title>
-      <link>http://localhost:61655/posts/embracing-ai-agents/</link>
+      <link>http://localhost:54679/posts/embracing-ai-agents/</link>
       <pubDate>Sat, 07 Feb 2026 01:00:00 -0700</pubDate>
-      <guid>http://localhost:61655/posts/embracing-ai-agents/</guid>
+      <guid>http://localhost:54679/posts/embracing-ai-agents/</guid>
       <description>&lt;h2 id=&#34;i-was-overly-pessimistic-about-ai-for-a-while&#34;&gt;I was overly pessimistic about AI for a while.&lt;/h2&gt;
 &lt;p&gt;I harped on the harms, ethical shortcomings, the ways this tech could be misused or cause real damage.&lt;/p&gt;
 &lt;p&gt;I still hold those concerns.&lt;/p&gt;
@@ -28,9 +39,9 @@
     </item>
     <item>
       <title>Why most college students won’t make it in big tech</title>
-      <link>http://localhost:61655/posts/college-big-tech-reality/</link>
+      <link>http://localhost:54679/posts/college-big-tech-reality/</link>
       <pubDate>Tue, 20 May 2025 00:01:00 -0700</pubDate>
-      <guid>http://localhost:61655/posts/college-big-tech-reality/</guid>
+      <guid>http://localhost:54679/posts/college-big-tech-reality/</guid>
       <description>&lt;h2 id=&#34;most-ppl-in-college-dont-deserve-big-tech-roles&#34;&gt;Most ppl in college don’t deserve big tech roles.&lt;/h2&gt;
 &lt;p&gt;That includes me. At least, the version of me I used to be.&lt;/p&gt;
 &lt;p&gt;Allow me to elaborate.&lt;/p&gt;
@@ -40,9 +51,9 @@
     </item>
     <item>
       <title>AI is Decoupling From Ethics: Why should you care?</title>
-      <link>http://localhost:61655/posts/ai-decoupling-from-ethics/</link>
+      <link>http://localhost:54679/posts/ai-decoupling-from-ethics/</link>
       <pubDate>Mon, 07 Apr 2025 08:30:00 -0700</pubDate>
-      <guid>http://localhost:61655/posts/ai-decoupling-from-ethics/</guid>
+      <guid>http://localhost:54679/posts/ai-decoupling-from-ethics/</guid>
       <description>&lt;h2 id=&#34;whats-currently-top-of-mind-for-me&#34;&gt;What&amp;rsquo;s currently top of mind for me:&lt;/h2&gt;
 &lt;p&gt;AI is advancing insanely fast. Faster than any of us ever expected.&lt;/p&gt;
 &lt;p&gt;The CEO of Anthropic predicted that &lt;a href=&#34;https://www.businessinsider.com/anthropic-ceo-ai-90-percent-code-3-to-6-months-2025-3&#34;&gt;by the end of 2025 over 90% of all software will be written by AI.&lt;/a&gt;&lt;/p&gt;

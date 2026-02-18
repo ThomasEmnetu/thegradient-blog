@@ -1,7 +1,7 @@
 ---
 date: '2026-02-07T01:00:00-07:00'
 draft: false
-title: "I’ve been drinking the AI kool-aid…and I love it"
+title: "I’ve Been Drinking the AI Kool-Aid…and I Love It"
 tags: ["AI", "Engineering", "Productivity", "Opinion"]
 categories: ["AI"]
 author: ["Thomas Emnetu"]

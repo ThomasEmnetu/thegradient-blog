@@ -1,7 +1,7 @@
 ---
 date: '2025-04-07T08:30:00-07:00'
 draft: false
-title: "AI is Decoupling From Ethics: Why should you care?"
+title: "AI is Decoupling From Ethics: Why Should You Care?"
 tags: ["AI", "Ethics", "Data", "Opinion"]
 categories: ["AI"]
 author: ["Thomas Emnetu"]
