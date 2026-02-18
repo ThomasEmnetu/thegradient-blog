@@ -237,7 +237,7 @@ Training a lightweight, specialized memory management model that handles the con
 
 >"what's happening, what do I need to know"
 
-Then this lightweight model could then feed clean, compressed context to the main agent model that can dedicate it's full context window to actual execution. Rather than each agent spending 60-80% of it's context just reorientating "where are we, what's my role, what are the dependencies" before they even start thinking about the task. Each agent would simply get it's own hyper-efficient memory model to handle this cognition.
+This memory model could then communicate with other sub-agent memory models. It would feed clean, compressed context to the parent agent that can dedicate it's full context window to actual execution. Rather than agents spending 60-80% of their context just reorientating "where are we, what's my role, what are the dependencies" before they even start thinking about a task. Each agent would simply get it's own efficient memory model to handle this cognition.
 
 ### Acknowledgements
 Special thanks to Ahmed Ghaddah for sharing your insights which inspired this post.
