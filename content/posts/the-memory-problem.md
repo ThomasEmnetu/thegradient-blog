@@ -24,7 +24,7 @@ Before we get into the problem, we need to understand why this is even possible 
 | GPT-4 | $30 | $60 | GPT-5.2 | $1.75 | $14 |
 | GPT-3.5-turbo | $0.50 | $1.50 | GPT-5-mini | $0.25 | $2 |
 
-That's above table showcases an **80%+ drop in cost** for frontier intelligence in under 2 years.
+The above table showcases an **80%+ drop in cost** for frontier intelligence in < 2 years.
 
 This is why multi-agent systems went from research concept to production reality. When reasoning is this cheap, you can afford to run multiple agents in parallel without burning through budgets.
 
