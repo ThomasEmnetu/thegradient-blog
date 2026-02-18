@@ -1,7 +1,7 @@
 ---
 date: '2026-02-18T00:01:00-07:00'
 draft: false
-title: "Multi-Agent Systems & Their Tendency to Develop Alzheimers"
+title: "Multi-Agent Systems & Their Tendency to Develop Alzheimer's"
 tags: ["AI", "Research", "Engineering", "Opinion"]
 categories: ["AI"]
 author: ["Thomas Emnetu"]
