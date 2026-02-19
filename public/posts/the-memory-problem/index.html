@@ -197,7 +197,7 @@ We now have cheap inference, capable models, and production-ready orchestration 
 <h2 id="the-hidden-cost-of-context-windows">The hidden cost of context windows<a hidden class="anchor" aria-hidden="true" href="#the-hidden-cost-of-context-windows">#</a></h2>
 <p>Multi-agent systems blow through context windows fast.</p>
 <p>Even with just 5 agents working in parallel, each maintaining their own plan files, logs, and understanding of the codebase, the token count explodes. Now imagine 15.</p>
-<p><a href="https://www.anthropic.com/engineering/building-c-compiler" target="_blank">Anthropic&rsquo;s research on their C compiler project</a> makes this concrete: <strong>16 parallel agents consumed 2 billion input tokens</strong> across 2,000 Claude Code sessions (~2 weeks straight). That&rsquo;s $20,000 in API costs for a single project.</p>
+<p><a href="https://www.anthropic.com/engineering/building-c-compiler" target="_blank">Anthropic&rsquo;s research on their C compiler project</a> makes this evident: <strong>16 parallel agents consumed 2 billion input tokens</strong> across 2,000 Claude Code sessions (~2 weeks straight). That&rsquo;s $20,000 in API costs for a single project.</p>
 <p>And this wasn&rsquo;t some grandiose enterprise system. It was one compiler.</p>
 <p>Most modern LLMs have a ~200k token context window limit before performance degrades significantly. Some have 1M context window, which sounds like a lot, but larger context windows don&rsquo;t solve the problem.</p>
 <figure>

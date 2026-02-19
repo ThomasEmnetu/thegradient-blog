@@ -36,7 +36,7 @@ Multi-agent systems blow through context windows fast.
 
 Even with just 5 agents working in parallel, each maintaining their own plan files, logs, and understanding of the codebase, the token count explodes. Now imagine 15.
 
-<a href="https://www.anthropic.com/engineering/building-c-compiler" target="_blank">Anthropic's research on their C compiler project</a> makes this concrete: **16 parallel agents consumed 2 billion input tokens** across 2,000 Claude Code sessions (~2 weeks straight). That's $20,000 in API costs for a single project.
+<a href="https://www.anthropic.com/engineering/building-c-compiler" target="_blank">Anthropic's research on their C compiler project</a> makes this evident: **16 parallel agents consumed 2 billion input tokens** across 2,000 Claude Code sessions (~2 weeks straight). That's $20,000 in API costs for a single project.
 
 And this wasn't some grandiose enterprise system. It was one compiler.
 
